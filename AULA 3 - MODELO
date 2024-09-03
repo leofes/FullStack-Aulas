@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>C++ e Java</title>
+    
+
+
+</head>
+<body>
+    <h1 id="cabecalho">C++ e Java</h1>
+
+
+    <nav id="links">
+        <a href="home.html">Home</a></li> <a href="project.html">Livros</a> <a href="videos">Vídeos</a> <a href="Contatos">Contatos</a>
+        
+    </nav>
+
+    <h3 class="head-title"> Introdução</h3>
+
+    <p>C++ (em português: lê-se "cê mais mais", em inglês lê-se see plus plus) é uma linguagem de programação compilada multi-paradigma (seu suporte inclui linguagem imperativa, orientada a objetos e genérica) e de uso geral. Desde os anos 1990 é uma das linguagens comerciais mais populares, sendo bastante usada também na academia por seu grande desempenho e base de utilizadores.
+        <br>
+        <br>
+        Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems. Em 2008 o Java foi adquirido pela empresa Oracle Corporation. 
+        <br>
+        <br>
+        Java foi desenvolvida por um grupo de pesquisadores da SUN Microsystems por volta de 1990, pouco antes da explosão da Internet. Essa linguagem possui estrutura muito semelhante à da linguagem C, da qual descende imediatamente. Java tem em comum com a linguagem C++ o fato de ser orientada a objetos e mantém com esta uma alto grau de semelhança</p>
+    
+    <h3 class="head-title"> Livros</h3>
+
+    <img class="imagens1" src="imagens/book1.jpg" alt="livro1" height="300">
+    <img class="imagens1" src="imagens/book2.jpg" alt="livro2" height="300">
+    <img class="imagens1" src="imagens/book3.jpg" alt="livro3" height="300">
+
+    <h3 class="head-title"> Aprenda a programar com java e C++ na FEI</h3>
+
+    <iframe class="imagens2" src="https://www.youtube.com/embed/4MHAOPxcnsQ" frameborder="0"></iframe>
+    <iframe class="imagens2"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.648556785657!2d-46.581586585019195!3d-23.724241184602274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4158ef9c7c05%3A0x776b798985695f52!2sCentro%20Universit%C3%A1rio%20FEI%20-%20Campus%20S%C3%A3o%20Bernardo%20do%20Campo!5e0!3m2!1spt-BR!2sbr!4v1630280666216!5m2!1spt-BR!2sbr
+    " frameborder="0"></iframe>
+
+    <h3 class="head-title"> Contatos</h3>
+
+    <table id="tabela">
+        <tr>
+            <td>Nome</td> <td>Email</td>
+        </tr>
+        <tr>
+            <td>Prof.Dr Fagner Pimentel</td> <td>fpimentel@fei.edu.br</td>
+        </tr>
+
+        <tr>
+            <td>Prof.Dr Isaac jesus da Silva</td> <td>isaacjesus@.fei.com.edu</td>
+        </tr>
+
+        
+    </table>
+
+    <p class="head-title"> Sites para consulta</p>
+    <ul id="lista">
+        <li>Html - </li>
+        <li>Css - </li>
+        <li>JavaScript - </li>
+     
+    </ul>
+
+
+    <p class=Desejamos um excelente semetre a todos.</p>
+    <p>(Fonte usada Comic Sons MS, tamanho 15pt</p>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+#cabecalho{
+    text-align: center;
+    border-style: solid;
+    border-color: bisque;
+}
+
+#links{
+    text-align: center;
+}
+
+p{
+    color: lightskyblue;
+}
+
+.head-title{
+    text-align: center;
+}
+
+
+    
+
+
+#lista{
+    text-align: center;
+    background-color:yellow;
+}
+
+
+
+
+
