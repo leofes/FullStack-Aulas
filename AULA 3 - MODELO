@@ -1,50 +1,51 @@
+
 <!DOCTYPE html>
 
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
-    <title> C++ e Java</title>
-    
-
-
+    <title>C++ e Java</title>
 </head>
 <body>
-    <h1 id="cabecalho">C++ e Java</h1>
+    <h1 id="cabecalho">
+        <img src="imagens/c++.png" alt="C++" class="logo">
+        C++ e Java
+        <img src="imagens/java.png" alt="Java" class="logo">
+    </h1>
 
-
+    
     <nav id="links">
-        <a href="home.html">Home</a></li> <a href="project.html">Livros</a> <a href="videos">Vídeos</a> <a href="Contatos">Contatos</a>
-        
+        <a href="home.html">HOME</a>
+        <a href="project.html">LIVROS</a>
+        <a href="videos.html">VÍDEOS</a>
+        <a href="contatos.html">CONTATOS</a>
     </nav>
 
-    <h3 class="head-title"> Introdução</h3>
+    <div>
+    <h3 class="head-title">Introdução</h3>
+    <p>C++ (em português: lê-se "cê mais mais", em inglês lê-se see plus plus) é uma linguagem de programação compilada multi-paradigma (seu suporte inclui linguagem imperativa, orientada a objetos e genérica) e de uso geral. Desde os anos 1990 é uma das linguagens comerciais mais populares, sendo bastante usada também na academia por seu grande desempenho e base de utilizadores.</p>
 
-    <p>C++ (em português: lê-se "cê mais mais", em inglês lê-se see plus plus) é uma linguagem de programação compilada multi-paradigma (seu suporte inclui linguagem imperativa, orientada a objetos e genérica) e de uso geral. Desde os anos 1990 é uma das linguagens comerciais mais populares, sendo bastante usada também na academia por seu grande desempenho e base de utilizadores.
-        <br>
-        <br>
-        Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems. Em 2008 o Java foi adquirido pela empresa Oracle Corporation. 
-        <br>
-        <br>
-        Java foi desenvolvida por um grupo de pesquisadores da SUN Microsystems por volta de 1990, pouco antes da explosão da Internet. Essa linguagem possui estrutura muito semelhante à da linguagem C, da qual descende imediatamente. Java tem em comum com a linguagem C++ o fato de ser orientada a objetos e mantém com esta uma alto grau de semelhança</p>
-    
-    <h3 class="head-title"> Livros</h3>
+    <p>Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems. Em 2008 o Java foi adquirido pela empresa Oracle Corporation.</p>
 
+    <p>Java foi desenvolvida por um grupo de pesquisadores da SUN Microsystems por volta de 1990, pouco antes da explosão da Internet. Essa linguagem possui estrutura muito semelhante à da linguagem C, da qual descende imediatamente. Java tem em comum com a linguagem C++ o fato de ser orientada a objetos e mantém com esta uma alto grau de semelhança.</p>
+
+  
+    <h3 class="head-title">Livros</h3>
     <div class="center-imagem">
-    <img src="imagens/book1.jpg" alt="livro1" height="300">
-    <img src="imagens/book2.jpg" alt="livro2" height="300">
-    <img src="imagens/book3.jpg" alt="livro3" height="300">
+        <img src="imagens/book1.jpg" alt="Livro 1" height="300">
+        <img src="imagens/book2.jpg" alt="Livro 2" height="300">
+        <img src="imagens/book3.jpg" alt="Livro 3" height="300">
     </div>
 
-    <h3 class="head-title"> Aprenda a programar com java e C++ na FEI</h3>
-
+    
+    <h3 class="head-title">Aprenda a programar com Java e C++ na FEI</h3>
     <div class="center-iframe">
-    <iframe src="https://www.youtube.com/embed/4MHAOPxcnsQ" frameborder="0"></iframe>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.648556785657!2d-46.581586585019195!3d-23.724241184602274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4158ef9c7c05%3A0x776b798985695f52!2sCentro%20Universit%C3%A1rio%20FEI%20-%20Campus%20S%C3%A3o%20Bernardo%20do%20Campo!5e0!3m2!1spt-BR!2sbr!4v1630280666216!5m2!1spt-BR!2sbr
-    " frameborder="0"></iframe>
+        <iframe src="https://www.youtube.com/embed/4MHAOPxcnsQ" frameborder="0" height="250"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.648556785657!2d-46.581586585019195!3d-23.724241184602274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4158ef9c7c05%3A0x776b798985695f52!2sCentro%20Universit%C3%A1rio%20FEI%20-%20Campus%20S%C3%A3o%20Bernardo%20do%20Campo!5e0!3m2!1spt-BR!2sbr!4v1630280666216!5m2!1spt-BR!2sbr" frameborder="0" height="250"></iframe>
     </div>
 
-    <h3 class="head-title"> Contatos</h3>
-
+   
+    <h3 class="head-title">Contatos</h3>
     <div class="center-table">
         <table>
             <tr>
@@ -61,92 +62,148 @@
             </tr>
         </table>
     </div>
-    
-        
-    </table>
 
-    <p class="head-title"> Sites para consulta</p>
+    <p class="head-title">Sites para consulta</p>
     <ul id="lista">
-        <li>Html - </li>
-        <li>Css - </li>
-        <li>JavaScript - </li>
-     
+        <li>HTML - <a href="https://www.w3schools.com/html/">https://www.w3schools.com/html/</a></li>
+        <li>CSS - <a href="https://www.w3schools.com/css/">https://www.w3schools.com/css/</a></li>
+        <li>JavaScript - <a href="https://www.w3schools.com/js/">https://www.w3schools.com/js/</a></li>
     </ul>
 
 
-    <p class="head-title"> Desejamos um excelente semestre a todos</p>
-
-
-
-
-
+    <p class="head-title">Desejamos um excelente semestre a todos.</p>
+    <footer>
+        <img src="imagens/html5.png" alt="HTML logo" class="footer-logo">
+        <img src="imagens/css3.png" alt="CSS logo" class="footer-logo">
+    </footer>
 </body>
 </html>
 
 
 
-#cabecalho{
+
+
+body {
+    font-family: 'SansSerif', sans-serif;
+    background-color: lightgray;
+}
+
+
+#cabecalho {
     text-align: center;
     border-style: solid;
-    border-color: bisque;
-    height: 100px;
+    border-color: darkblue;
+    height: 150px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px
 }
 
-#cabecalho{
-  
-    
+.logo {
+    height: 120px;
 }
 
-#links{
+#links {
     text-align: center;
-    border-style: solid;
-    padding-bottom: 10px;
-    height: 50px;
-    
+    background-color: lightblue;
+    padding: 15px;
 }
 
-p{
-    color: lightskyblue; 
+#links a {
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: darkblue;
 }
 
-.head-title{
+
+p {
+    color: blueviolet;
+    font-size: 20pt;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+
+.head-title {
     text-align: center;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 
-.center-imagem{
-    text-align: center;
+.center-imagem {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 20px 0;
+    padding: 40px;
 }
+
 
 .center-iframe {
     display: flex;
-    justify-content: center; 
-    align-items: center;    
-    flex-direction:row; 
-    height: 10vh;
-    margin: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 30px;
 }
 
-.center-table{
-    
-    border-style: dashed;
-    border-color: red;
+.center-iframe iframe {
+    width: 300px;
+    height: 300px;
 }
 
-.center-table{
+
+.center-table {
     display: flex;
     justify-content: center;
     width: 350px;
     align-items: center;
-    height: 10vh
+    height: 10vh;
+    border-style: dashed;
+    border-color: red;
+    padding: 10px;
 }
 
-#lista{
+.center-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.center-table th, .center-table td { 
+    border: 1px solid black;
+    padding: 10px;
     text-align: center;
-    background-color:yellow;
-    width: 300px;
+    background-color: #f0f0f0;
 }
 
+
+#lista {
+    text-align: center;
+    background-color: yellow;
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-logo {
+    width: 50px;
+    margin: 0 20px;
+}
+
+.head-title {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 15pt;
+}
 
 
 
