@@ -3,7 +3,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
-    <title>C++ e Java</title>
+    <title> C++ e Java</title>
     
 
 
@@ -29,30 +29,39 @@
     
     <h3 class="head-title"> Livros</h3>
 
-    <img class="imagens1" src="imagens/book1.jpg" alt="livro1" height="300">
-    <img class="imagens1" src="imagens/book2.jpg" alt="livro2" height="300">
-    <img class="imagens1" src="imagens/book3.jpg" alt="livro3" height="300">
+    <div class="center-imagem">
+    <img src="imagens/book1.jpg" alt="livro1" height="300">
+    <img src="imagens/book2.jpg" alt="livro2" height="300">
+    <img src="imagens/book3.jpg" alt="livro3" height="300">
+    </div>
 
     <h3 class="head-title"> Aprenda a programar com java e C++ na FEI</h3>
 
-    <iframe class="imagens2" src="https://www.youtube.com/embed/4MHAOPxcnsQ" frameborder="0"></iframe>
-    <iframe class="imagens2"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.648556785657!2d-46.581586585019195!3d-23.724241184602274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4158ef9c7c05%3A0x776b798985695f52!2sCentro%20Universit%C3%A1rio%20FEI%20-%20Campus%20S%C3%A3o%20Bernardo%20do%20Campo!5e0!3m2!1spt-BR!2sbr!4v1630280666216!5m2!1spt-BR!2sbr
+    <div class="center-iframe">
+    <iframe src="https://www.youtube.com/embed/4MHAOPxcnsQ" frameborder="0"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.648556785657!2d-46.581586585019195!3d-23.724241184602274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4158ef9c7c05%3A0x776b798985695f52!2sCentro%20Universit%C3%A1rio%20FEI%20-%20Campus%20S%C3%A3o%20Bernardo%20do%20Campo!5e0!3m2!1spt-BR!2sbr!4v1630280666216!5m2!1spt-BR!2sbr
     " frameborder="0"></iframe>
+    </div>
 
     <h3 class="head-title"> Contatos</h3>
 
-    <table id="tabela">
-        <tr>
-            <td>Nome</td> <td>Email</td>
-        </tr>
-        <tr>
-            <td>Prof.Dr Fagner Pimentel</td> <td>fpimentel@fei.edu.br</td>
-        </tr>
-
-        <tr>
-            <td>Prof.Dr Isaac jesus da Silva</td> <td>isaacjesus@.fei.com.edu</td>
-        </tr>
-
+    <div class="center-table">
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Prof. Dr. Fagner Pimentel</td>
+                <td>fpimentel@fei.edu.br</td>
+            </tr>
+            <tr>
+                <td>Prof. Dr. Isaac Jesus da Silva</td>
+                <td>isaacjesus@fei.edu.br</td>
+            </tr>
+        </table>
+    </div>
+    
         
     </table>
 
@@ -65,8 +74,7 @@
     </ul>
 
 
-    <p class=Desejamos um excelente semetre a todos.</p>
-    <p>(Fonte usada Comic Sons MS, tamanho 15pt</p>
+    <p class="head-title"> Desejamos um excelente semestre a todos</p>
 
 
 
@@ -77,19 +85,28 @@
 
 
 
-
 #cabecalho{
     text-align: center;
     border-style: solid;
     border-color: bisque;
+    height: 100px;
+}
+
+#cabecalho{
+  
+    
 }
 
 #links{
     text-align: center;
+    border-style: solid;
+    padding-bottom: 10px;
+    height: 50px;
+    
 }
 
 p{
-    color: lightskyblue;
+    color: lightskyblue; 
 }
 
 .head-title{
@@ -97,13 +114,41 @@ p{
 }
 
 
-    
+.center-imagem{
+    text-align: center;
+}
 
+.center-iframe {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    flex-direction:row; 
+    height: 10vh;
+    margin: 100px;
+}
+
+.center-table{
+    
+    border-style: dashed;
+    border-color: red;
+}
+
+.center-table{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    align-items: center;
+    height: 10vh
+}
 
 #lista{
     text-align: center;
     background-color:yellow;
+    width: 300px;
 }
+
+
+
 
 
 
