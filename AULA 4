@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Aula 4</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Aula 4</h1>
+        <div class="flex-container">
+            <div id="d1">1</div>
+            <div id="d2">2</div>
+            <div id="d3">3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+
+
+
+
+    </body>
+</html>
+
+
+#lista{
+    list-style-type: disc;
+    padding-left: 50px;
+    text-align:left;
+}
+
+#lista2{
+    text-align: center;
+}
+
+#fundo-logo{
+    text-align: center;
+    height: 150px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-title {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 15pt;
+}
+
+
+
+
+
+
+
