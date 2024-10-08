@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula 7</title>
+</head>
+<body>
+    <h1>Aula 7</h1>
+
+    <canvas id="canvas" width="400" height="400"></canvas>
+
+
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
+
+
+
+
+#canvas{
+    background-color: aquamarine;
+}
+
+
+
+document.getElementById("canvas");
+let ctx = canvas.getContext("2d")
+
+ctx.beginPath();
+ctx.lineWidth = 10;
+ctx.fillStyle = "red";
+ctx.fillRect(0,0,50,50);
+ctx.closePath();
+
+ctx.beginPath();
+ctx.lineWidth = 10;
+ctx.fillStyle = "yellow"
+ctx.fillRect(0,350,50,50)
+
+ctx.beginPath();
+ctx.lineWidth = 10;
+ctx.fillStyle = "blue"
+ctx.fillRect(350,0,50,50)
+
+ctx.beginPath();
+ctx.lineWidth = 10;
+ctx.fillStyle = "green"
+ctx.fillRect(350,350,50,50)
+
+ctx.beginPath();
+ctx.lineWidth = 3;
+ctx.strokeStyle = "red"
+ctx.moveTo(0,0)
+ctx.lineTo(400,400)
+ctx.stroke();
+
+ctx.beginPath();
+ctx.lineWidth = 3;
+ctx.strokeStyle = "blue"
+ctx.moveTo(400,0)
+ctx.lineTo(0,400)
+ctx.stroke();
+
+ctx.beginPath();
+ctx.lineWidth = 3;
+ctx.strokeStyle = "green"
+ctx.moveTo(0,200)
+ctx.lineTo(400,200)
+ctx.stroke();
+
+ctx.beginPath();
+ctx.lineWidth = 3;
+ctx.strokeStyle = 'green';
+ctx.arc(200,200,50,2*Math.PI, Math.PI,);
+ctx.stroke();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.lineWidth = 3;
+ctx.strokeStyle = 'green';
+ctx.fillStyle = "yellow"
+ctx.arc(50,130,20,0,2*Math.PI,);
+ctx.stroke();
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.lineWidth = 3;
+ctx.strokeStyle = 'green';
+ctx.fillStyle = "yellow"
+ctx.arc(350,130,20,0,2*Math.PI,);
+ctx.stroke();
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.lineWidth = 1;
+ctx.strokeStyle = 'aquamarine';
+ctx.fillStyle = 'black';
+ctx.font = "20px Arial"
+ctx.strokeText("Desenvolvimento web",100,80);
+ctx.fillText("Desenvolvimento web",100,80);
+ctx.closePath();
