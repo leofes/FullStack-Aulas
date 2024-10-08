@@ -1,0 +1,17 @@
+document.getElementById("canvas");
+let ctx = canvas.getContext("2d")
+
+function quadrado(cor_linha, cor_dentro, x, y, largura, altura) {
+ctx.beginPath();
+ctx.lineWidth = 2;
+ctx.strokeStyle = cor_linha;
+ctx.fillStyle = cor_dentro;
+ctx.fillRect(x,y, largura, altura);
+ctx.closePath();
+
+}
+
+quadrado("blue", "blue", 0,0,50,50);
+quadrado("red", "red", 350,0,50,50)
+quadrado("skyblue", "skyblue", 0,150,40,80);
+quadrado("skyblue")
